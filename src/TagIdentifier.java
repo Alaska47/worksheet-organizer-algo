@@ -9,7 +9,7 @@ import org.apache.lucene.analysis.en.*;
 public class TagIdentifier {
 
    private String filePlainText;
-   private static ArrayList<String> commonWords;
+   private ArrayList<String> commonWords;
    private ArrayList<String> tags;
    private ArrayList<String> history;
    private ArrayList<String> english;
